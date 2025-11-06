@@ -1,5 +1,4 @@
 @use "../abstracts/colors" as *;
-@import url('https://fonts.googleapis/css2?family=Lato:wght@100:300:400:900&family=Lavishly+Yours&display=swap');
 
 :root {
   @each $color, $shades in $colors {

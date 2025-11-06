@@ -1,0 +1,33 @@
+@use "../abstracts" as *;
+
+@each $name, $value in $weights {
+  .--fw-#{$name} {
+    font-weight: $value;
+  }
+}
+
+@each $name, $value in $font {
+  .--ff-#{$name} {
+    font-family: $value;
+  }
+}
+
+@each $shade, $shades in $colors {
+  @each $name, $value in $shades {
+    .--clr-#{$shade}-#{$name} {
+      color: $value;
+    }
+
+    .--bdg-#{$shade}-#{$name} {
+      background-color: $value;
+    }
+  }
+}
+
+@each $size, $sizes in $fontSizes {
+  @each $name, $value in $sizes {
+    .--fs-#{$size}-#{$name} {
+      font-size: $value;
+    }
+  }
+}
