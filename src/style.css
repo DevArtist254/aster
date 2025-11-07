@@ -10,11 +10,20 @@
   font: inherit;
 }
 
+ul {
+  list-style: none;
+}
+
 img,
 picture,
 svg {
   display: block;
   max-width: 100%;
+}
+
+body {
+  max-width: 144rem;
+  margin: 0 auto;
 }
 
 :root {
@@ -24,6 +33,23 @@ svg {
   --dark-400: #66433F;
   --dark-200: #817AB1;
   --dark-000: #000000;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .--fw-000 {
@@ -132,6 +158,34 @@ svg {
 
 .--fs-large-600 {
   font-size: 9.6rem;
+}
+
+.padding-000 {
+  padding: 1rem 2rem;
+}
+
+.padding-200 {
+  padding: 1rem 3rem;
+}
+
+.padding-400 {
+  padding: 2rem 3rem;
+}
+
+.padding-600 {
+  padding: 6rem 3rem;
+}
+
+.round-xl {
+  border-radius: 2rem;
+}
+
+.round-l {
+  border-radius: 1rem;
+}
+
+.round-sm {
+  border-radius: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

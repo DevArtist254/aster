@@ -1,0 +1,7 @@
+@use "../abstracts/sizes" as *;
+
+@each $name, $value in $padding {
+  .padding-#{$name} {
+    padding: $value;
+  }
+}

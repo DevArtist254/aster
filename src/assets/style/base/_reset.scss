@@ -10,9 +10,18 @@
   font: inherit;
 }
 
+ul {
+  list-style: none;
+}
+
 img,
 picture,
 svg {
   display: block;
   max-width: 100%;
+}
+
+body {
+  max-width: 144rem;
+  margin: 0 auto;
 }
