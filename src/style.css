@@ -35,6 +35,43 @@ body {
   --dark-000: #000000;
 }
 
+.main {
+  width: 100%;
+  height: 85vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/images/cover.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.input__title {
+  width: 14.4rem;
+  height: 5rem;
+  border-top-left-radius: 1rem;
+}
+.input__content {
+  padding: 1rem 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.input__content--price, .input__content--location {
+  border-left: 1px solid #000;
+}
+
+.card__impact {
+  width: calc((100% - 3rem) / 2);
+  height: 100%;
+  gap: 3rem;
+}
+.card__small {
+  width: 30rem;
+  height: max-content;
+}
+.card__large {
+  width: 72rem;
+  height: 100%;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -43,6 +80,10 @@ body {
 
 .space-between {
   justify-content: space-between;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 .center-content {
@@ -158,6 +199,10 @@ body {
 
 .--fs-large-600 {
   font-size: 9.6rem;
+}
+
+.text-centered {
+  text-align: center;
 }
 
 .padding-000 {

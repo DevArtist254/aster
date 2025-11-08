@@ -1,6 +1,6 @@
 <template>
   <nav class="flex-row space-between padding-400 | --clr-dark-400 --fs-small-600">
-    <h3>Aster</h3>
+    <h3 class="--ff-accent">Aster</h3>
     <ul class="flex-row | --fs-small-200 --ff-base">
       <li class="padding-200">About us</li>
       <li class="padding-200">Property</li>
@@ -8,12 +8,74 @@
       <li class="padding-200 round-xl | --bdg-dark-400 --clr-light-000">Contact us</li>
     </ul>
   </nav>
-  <main>
+  <main class="main center-content round-l">
+    <div class="content">
+      <div class="text-centered --clr-light-000">
+        <h1 class="--fs-large-600 --ff-accent">Journey To Your Perfect Home</h1>
+        <p class="--fs-small-600 --ff-base">Let our expert team guide you through the magic of real estate <br/> home ownership</p>    
+      </div>
+      <div class="main__input">
+        <div class="input | --ff-base">
+          <label for="buy" class="input__title center-content --bdg-light-000 | --fs-small-000">Buy</label>
+          <div class="input__content flex-row space-between | --bdg-light-000">
+            <div class="input__content--type padding-000">
+              <h3 class="--fw-600">Property type</h3>
+              <p class="--fw-200">Select the type of property &#x2B9F;</p>
+            </div>
+            <div class="input__content--location padding-000">
+              <h3 class="--fw-600">Location</h3>
+              <p class="--fw-200">ie Nairobi, Mombasa, Lamu &#x2B9F;</p>
+            </div>
+            <div class="input__content--price padding-000">
+              <h3 class="--fw-600">Price</h3>
+              <p class="--fw-200">Min price - Max price &#x2B9F;</p>
+            </div>
+            <div class="input__content--cta">
+              <div class="padding-200 round-sm | --bdg-dark-400 --clr-light-000">
+                Search
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
   </main>
+  <section class="padding-600 | --ff-base --clr-dark-400">
+    <div class="flex-row space-between">
+      <h2 class="--ff-accent --fs-large-400">
+        Your Trusted Real <br>
+        Estate Advisors
+      </h2>
+      <p class="--fs-small-200">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        <br> Minus voluptate ut accusantium tenetur impedit a natus ea iste iure fugiat.
+      </p>
+    </div>
+    <div class="card flex-row space-between">
+      <div class="card__impact flex-row wrap">
+        <div class="--bdg-light-200 padding-400 card__small">
+          <h2 class="--fs-large-400">17k+</h2>
+          <p class="--fs-small-400">Satisfied Customers</p>
+        </div>
+        <div class="--bdg-light-200 padding-400 card__small">
+          <h2 class="--fs-large-400">25+</h2>
+          <p class="--fs-small-400">Property Collections</p>
+        </div>
+        <div class="--bdg-light-200 padding-400 card__small">
+          <h2 class="--fs-large-400">150+</h2>
+          <p class="--fs-small-400">Awarding Winning</p>
+        </div>
+        <div class="--bdg-light-200 padding-400 card__small">
+          <h2 class="--fs-large-400">25+</h2>
+          <p class="--fs-small-400">Property collection</p>
+        </div> 
+      </div>
+     <div class="--bdg-light-200 card__large">
+        <div class="--fs-small-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptatibus quo dolorum, impedit unde animi quisquam, amet maiores aliquid omnis tenetur enim doloribus voluptatem perspiciatis sunt? Possimus numquam deleniti iure?</div>
+     </div>
+    </div>
+  </section>
 </template>
 
-<script>
-export default {
-  name: 'HelloWorld',
-}
+<script setup>
+
 </script>

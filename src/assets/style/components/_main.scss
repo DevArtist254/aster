@@ -1,0 +1,47 @@
+.main {
+  width: 100%;
+  height: 85vh;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("./assets/images/cover.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.input {
+  &__title {
+    width: 14.4rem;
+    height: 5rem;
+    border-top-left-radius: 1rem;
+  }
+
+  &__content {
+    padding: 1rem 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+    &--price,
+    &--location {
+      border-left: 1px solid #000;
+    }
+  }
+}
+
+.card {
+
+  &__impact {
+    width: calc((100% - 3rem) / 2);
+    height: 100%;
+    gap: 3rem;
+  }
+
+  &__small {
+    width: 30rem;
+    height: max-content;
+  }
+
+  &__large {
+    width: calc((30rem + 6rem) * 2);
+    height: 100%;
+  }
+}
+
