@@ -26,22 +26,3 @@
   }
 }
 
-.card {
-
-  &__impact {
-    width: calc((100% - 3rem) / 2);
-    height: 100%;
-    gap: 3rem;
-  }
-
-  &__small {
-    width: 30rem;
-    height: max-content;
-  }
-
-  &__large {
-    width: calc((30rem + 6rem) * 2);
-    height: 100%;
-  }
-}
-

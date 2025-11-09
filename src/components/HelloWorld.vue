@@ -40,7 +40,7 @@
       </div>
    </div>
   </main>
-  <section class="padding-600 | --ff-base --clr-dark-400">
+  <section class="flex-column padding-600 | --ff-base --clr-dark-400">
     <div class="flex-row space-between">
       <h2 class="--ff-accent --fs-large-400">
         Your Trusted Real <br>
@@ -50,28 +50,68 @@
         <br> Minus voluptate ut accusantium tenetur impedit a natus ea iste iure fugiat.
       </p>
     </div>
-    <div class="card flex-row space-between">
-      <div class="card__impact flex-row wrap">
-        <div class="--bdg-light-200 padding-400 card__small">
+    <div class="impact flex-row space-between">
+      <div class="impact__cards flex-row wrap">
+        <div class="impact__small round-l | --bdg-light-200 padding-400">
           <h2 class="--fs-large-400">17k+</h2>
           <p class="--fs-small-400">Satisfied Customers</p>
         </div>
-        <div class="--bdg-light-200 padding-400 card__small">
+        <div class="impact__small round-l | --bdg-light-400 --clr-light-000 padding-400 ">
           <h2 class="--fs-large-400">25+</h2>
           <p class="--fs-small-400">Property Collections</p>
         </div>
-        <div class="--bdg-light-200 padding-400 card__small">
+        <div class="impact__small round-l | --bdg-light-200 padding-400">
           <h2 class="--fs-large-400">150+</h2>
           <p class="--fs-small-400">Awarding Winning</p>
         </div>
-        <div class="--bdg-light-200 padding-400 card__small">
+        <div class="impact__small round-1 | --bdg-light-200 padding-400">
           <h2 class="--fs-large-400">25+</h2>
           <p class="--fs-small-400">Property collection</p>
         </div> 
       </div>
-     <div class="--bdg-light-200 card__large">
-        <div class="--fs-small-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptatibus quo dolorum, impedit unde animi quisquam, amet maiores aliquid omnis tenetur enim doloribus voluptatem perspiciatis sunt? Possimus numquam deleniti iure?</div>
+     <div class="impact__large flex-row padding-000 round-l | --bdg-light-200">
+        <p class="padding-000 self-align-start | --fs-small-200">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Delectus voluptatibus quo dolorum, impedit unde animi quisquam, amet maiores aliquid omnis 
+            tenetur enim doloribus voluptatem perspiciatis sunt? Possimus numquam deleniti iure?
+        </p>
+        <div class="impact__large--img round-l overflow-hidden">
+          <img alt="impact image" src="../assets/images/pixasquare-4ojhpgKpS68-unsplash.jpg">
+        </div>
      </div>
+    </div>
+  </section>
+  <section class="flex-column padding-600 | --ff-base --clr-dark-400">
+    <div class="flex-row space-between">
+      <h2 class="--ff-accent --fs-large-400">
+        Discover Your Perfect <br>
+        Property Match
+      </h2>
+      <p class="--fs-small-200">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        <br> Minus voluptate ut accusantium tenetur impedit a natus ea iste iure fugiat.
+      </p>
+    </div>
+    <div class="preview flex-row wrap row-gap space-round">
+      <div class="preview__large round-sm overflow-hidden">
+        <div class="icon"></div>
+        <img src="../assets/images/preview_large.jpg" alt="large preview">
+      </div>
+      <div class="flex-column">
+        <div class="preview__mid round-sm overflow-hidden">
+          <div class="icon"></div>
+          <img src="../assets/images/preview_mid.jpg" alt="preview">
+        </div>
+        <div class="flex-row row-gap">
+          <div class="preview__small round-sm overflow-hidden">
+            <div class="icon"></div>
+            <img src="../assets/images/preview_sm-1.jpg" alt="preview">
+          </div>
+          <div class="preview__small round-sm overflow-hidden">
+            <div class="icon"></div>
+            <img src="../assets/images/preview_sm-2.jpg" alt="preview">
+          </div>
+        </div>
+      </div> 
     </div>
   </section>
 </template>

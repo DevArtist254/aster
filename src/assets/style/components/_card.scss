@@ -1,0 +1,49 @@
+@use "../abstracts" as *;
+
+.impact {
+  &__cards {
+    max-width: calc(($card-width * 2) + $gap);
+    column-gap: $gap;
+    row-gap: $gap;
+  }
+
+  &__small {
+    width: $card-width;
+    height: $card-impact-height;
+  }
+
+  &__large {
+    max-width: calc(($card-width * 2) + $gap);
+    height: calc(($card-impact-height * 2) + $gap);
+
+    &--img {
+      max-width: $card-width;
+      height: $card-impact-large-height;
+    }
+  }
+}
+
+.preview {
+  row-gap: $gap;
+
+  &__small,
+  &__mid,
+  &__large {
+    position: relative;
+  }
+
+  &__small {
+    max-width: $card-width;
+    height: $card-preview-height;
+  }
+
+  &__mid {
+    max-width: calc(($card-width * 2) + $gap);
+    height: $card-preview-height;
+  }
+
+  &__large {
+    max-width: calc(($card-width * 2) + $gap);
+    height: calc(($card-preview-height * 2) + $gap);
+  }
+}

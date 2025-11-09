@@ -1,15 +1,29 @@
+@use "../abstracts" as *;
+
 .flex-row {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
+.row-gap {
+  gap: $gap;
+}
+
 .space-between {
   justify-content: space-between;
 }
 
+.space-round {
+  justify-content: space-around;
+}
+
 .wrap {
   flex-wrap: wrap;
+}
+
+.self-align-start {
+  align-self: start;
 }
 
 .center-content {
@@ -17,4 +31,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
 }
