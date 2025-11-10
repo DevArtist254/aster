@@ -43,7 +43,11 @@
   }
 
   &__large {
-    max-width: calc(($card-width * 2) + $gap);
+    width: calc(($card-width * 2) + $gap);
     height: calc(($card-preview-height * 2) + $gap);
+
+    &--details {
+      height: $card-details-height;
+    }
   }
 }

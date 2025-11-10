@@ -92,22 +92,33 @@
       </p>
     </div>
     <div class="preview flex-row wrap row-gap space-round">
-      <div class="preview__large round-sm overflow-hidden">
-        <div class="icon"></div>
-        <img src="../assets/images/preview_large.jpg" alt="large preview">
+      <div class="preview__large round-l overflow-hidden padding-000 flex-column justify-end" >
+        <div class="icon --bdg-dark-000 posa-top-right-2 center-content">
+          <Icon icon="weui:like-outlined" width='55px' height='55px' class="--clr-light-200" />
+        </div>
+        <img src="../assets/images/preview_large.jpg" alt="preview" class="posa-background">
+        <div class="preview__large--details --bdg-light-000 round-l">
+          <h1>$ 1,200,000</h1>
+        </div>
       </div>
       <div class="flex-column">
-        <div class="preview__mid round-sm overflow-hidden">
-          <div class="icon"></div>
+        <div class="preview__mid round-l overflow-hidden">
+          <div class="icon --bdg-dark-000 posa-top-right-2 center-content">
+            <Icon icon="weui:like-outlined" width='55px' height='55px' class="--clr-light-200" />
+          </div>
           <img src="../assets/images/preview_mid.jpg" alt="preview">
         </div>
         <div class="flex-row row-gap">
-          <div class="preview__small round-sm overflow-hidden">
-            <div class="icon"></div>
+          <div class="preview__small round-l overflow-hidden">
+            <div class="icon --bdg-dark-000 posa-top-right-2 center-content">
+              <Icon icon="weui:like-filled" width='55px' height='55px' class="--clr-light-200" />
+            </div>
             <img src="../assets/images/preview_sm-1.jpg" alt="preview">
           </div>
-          <div class="preview__small round-sm overflow-hidden">
-            <div class="icon"></div>
+          <div class="preview__small round-l overflow-hidden">
+            <div class="icon --bdg-dark-000 posa-top-right-2 center-content">
+              <Icon icon="weui:like-outlined" width='55px' height='55px' class="--clr-light-200" />
+            </div>
             <img src="../assets/images/preview_sm-2.jpg" alt="preview">
           </div>
         </div>
@@ -117,5 +128,8 @@
 </template>
 
 <script setup>
-
+  import { Icon } from '@iconify/vue'
+  // import { ref } from 'vue'
+  
+  // const preview = ref('../assets/images/preview_large.jpg');
 </script>

@@ -72,8 +72,11 @@ body {
   height: 40.2rem;
 }
 .preview__large {
-  max-width: 63rem;
+  width: 63rem;
   height: 83.4rem;
+}
+.preview__large--details {
+  height: 20rem;
 }
 
 .main {
@@ -117,12 +120,20 @@ body {
   justify-content: space-around;
 }
 
+.justify-end {
+  justify-content: end;
+}
+
 .wrap {
   flex-wrap: wrap;
 }
 
 .self-align-start {
   align-self: start;
+}
+
+.self-align-end {
+  align-self: end;
 }
 
 .center-content {
@@ -136,6 +147,19 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+}
+
+.posa-top-right-2 {
+  top: 2rem;
+  right: 2rem;
+  position: absolute;
+}
+
+.posa-background {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .--fw-000 {
@@ -270,10 +294,6 @@ body {
   width: 5.5rem;
   height: 5.5rem;
   border-radius: 100%;
-  top: 2rem;
-  right: 2rem;
-  position: absolute;
-  background-color: #fff;
 }
 
 .overflow-hidden {

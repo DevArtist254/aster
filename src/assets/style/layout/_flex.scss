@@ -18,12 +18,20 @@
   justify-content: space-around;
 }
 
+.justify-end {
+  justify-content: end;
+}
+
 .wrap {
   flex-wrap: wrap;
 }
 
 .self-align-start {
   align-self: start;
+}
+
+.self-align-end {
+  align-self: end;
 }
 
 .center-content {
