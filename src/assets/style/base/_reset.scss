@@ -1,3 +1,5 @@
+@use "../abstracts/theme" as *;
+
 *,
 *::before,
 *::after {
@@ -28,4 +30,8 @@ img {
 body {
   max-width: 144rem;
   margin: 0 auto;
+}
+
+section {
+  min-height: $section-height;
 }

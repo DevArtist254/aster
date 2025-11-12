@@ -30,6 +30,10 @@ body {
   margin: 0 auto;
 }
 
+section {
+  min-height: 85vh;
+}
+
 :root {
   --light-400: #CE7457;
   --light-200: #EAD1BA;
@@ -59,9 +63,6 @@ body {
 
 .preview {
   row-gap: 3rem;
-}
-.preview__small, .preview__mid, .preview__large {
-  position: relative;
 }
 .preview__small {
   max-width: 30rem;
@@ -97,9 +98,6 @@ body {
   border-top-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-}
-.input__content--price, .input__content--location {
-  border-left: 1px solid #000;
 }
 
 .flex-row {
@@ -153,6 +151,10 @@ body {
   top: 2rem;
   right: 2rem;
   position: absolute;
+}
+
+.posr {
+  position: relative;
 }
 
 .posa-background {
@@ -290,6 +292,10 @@ body {
   padding: 6rem 3rem;
 }
 
+.padding-800 {
+  padding: 7rem 9rem;
+}
+
 .icon {
   width: 5.5rem;
   height: 5.5rem;
@@ -310,6 +316,14 @@ body {
 
 .round-sm {
   border-radius: 0.5rem;
+}
+
+.border-left {
+  border-left: 1px solid #000;
+}
+
+.rotate-45 {
+  rotate: 45deg;
 }
 
 /*# sourceMappingURL=style.css.map */

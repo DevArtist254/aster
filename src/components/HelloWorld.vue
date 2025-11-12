@@ -22,11 +22,11 @@
               <h3 class="--fw-600">Property type</h3>
               <p class="--fw-200">Select the type of property &#x2B9F;</p>
             </div>
-            <div class="input__content--location padding-000">
+            <div class="input__content--location padding-000 border-left">
               <h3 class="--fw-600">Location</h3>
               <p class="--fw-200">ie Nairobi, Mombasa, Lamu &#x2B9F;</p>
             </div>
-            <div class="input__content--price padding-000">
+            <div class="input__content--price padding-000 border-left">
               <h3 class="--fw-600">Price</h3>
               <p class="--fw-200">Min price - Max price &#x2B9F;</p>
             </div>
@@ -92,30 +92,43 @@
       </p>
     </div>
     <div class="preview flex-row wrap row-gap space-round">
-      <div class="preview__large round-l overflow-hidden padding-000 flex-column justify-end" >
+      <div class="preview__large round-l overflow-hidden padding-000 flex-column justify-end posr" >
         <div class="icon --bdg-dark-000 posa-top-right-2 center-content">
           <Icon icon="weui:like-outlined" width='55px' height='55px' class="--clr-light-200" />
         </div>
         <img src="../assets/images/preview_large.jpg" alt="preview" class="posa-background">
-        <div class="preview__large--details --bdg-light-000 round-l">
-          <h1>$ 1,200,000</h1>
+        <div class="round-l | --bdg-light-000 --ff-base">
+          <div class="padding-000 posr">
+            <h1 class="--fs-large-200">$ 1,200,000</h1>
+            <div class="icon --bdg-light-200 posa-top-right-2 center-content">
+              <Icon icon="fluent:arrow-up-48-filled" width="48" height="48" class="rotate-45" />
+            </div>
+          </div>
+          <div class="flex-row space-between padding-000">
+            <h2 class="--fs-small-400">21 Gorham Road <br> Belmont, MA 02478</h2>
+            <div class="flex-row">
+              <p class="padding-000 | --fs-small-200">2,169<br>Sq. fft</p>
+              <p class="border-left padding-000 | --fs-small-200">3 <br> Beds</p>
+              <p class="border-left padding-000 | --fs-small-200">2 <br> Baths</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="flex-column">
-        <div class="preview__mid round-l overflow-hidden">
+        <div class="preview__mid round-l overflow-hidden posr">
           <div class="icon --bdg-dark-000 posa-top-right-2 center-content">
             <Icon icon="weui:like-outlined" width='55px' height='55px' class="--clr-light-200" />
           </div>
           <img src="../assets/images/preview_mid.jpg" alt="preview">
         </div>
         <div class="flex-row row-gap">
-          <div class="preview__small round-l overflow-hidden">
+          <div class="preview__small round-l overflow-hidden posr">
             <div class="icon --bdg-dark-000 posa-top-right-2 center-content">
               <Icon icon="weui:like-filled" width='55px' height='55px' class="--clr-light-200" />
             </div>
             <img src="../assets/images/preview_sm-1.jpg" alt="preview">
           </div>
-          <div class="preview__small round-l overflow-hidden">
+          <div class="preview__small round-l overflow-hidden posr">
             <div class="icon --bdg-dark-000 posa-top-right-2 center-content">
               <Icon icon="weui:like-outlined" width='55px' height='55px' class="--clr-light-200" />
             </div>
@@ -124,6 +137,11 @@
         </div>
       </div> 
     </div>
+  </section>
+  <section class="round-1 overflow-hidden padding-800 posr | --clr-light-000 --ff-base">
+    <img src="../assets/images/earth.jpg" alt="earth-1" class="posa-background">
+    <h1 class="--fs-large-200">International Property Network</h1>
+    <p class="--fs-small-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, ea unde ab atque voluptatibus eius: nulla fuga obcaecati assumenda tenetur!</p>
   </section>
 </template>
 

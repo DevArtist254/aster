@@ -24,13 +24,7 @@
 }
 
 .preview {
-  row-gap: $gap;
-
-  &__small,
-  &__mid,
-  &__large {
-    position: relative;
-  }
+  row-gap: $gap; 
 
   &__small {
     max-width: $card-width;
